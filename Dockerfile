@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER Nicolas RAMY <nicolas.ramy@darkelda.com>
 
 RUN apk update && apk upgrade
-RUN apk add php unzip
+RUN apk add php php-soap unzip
 
 ADD http://downloads.sourceforge.net/project/phpvirtualbox/phpvirtualbox-4.3-3.zip phpvirtualbox-4.3-3.zip
 RUN unzip phpvirtualbox-4.3-3.zip
