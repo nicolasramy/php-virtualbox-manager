@@ -4,9 +4,9 @@ MAINTAINER Nicolas RAMY <nicolas.ramy@darkelda.com>
 RUN apk update && apk upgrade
 RUN apk add php unzip
 
-ADD http://downloads.sourceforge.net/project/phpvirtualbox/phpvirtualbox-5.0-5.zip phpvirtualbox-5.0-5.zip
-RUN unzip phpvirtualbox-5.0-5.zip
-RUN mv phpvirtualbox-5.0-5 /var/www
+ADD http://downloads.sourceforge.net/project/phpvirtualbox/phpvirtualbox-4.3-3.zip phpvirtualbox-4.3-3.zip
+RUN unzip phpvirtualbox-4.3-3.zip
+RUN mv phpvirtualbox-4.3-3 /var/www
 ADD config.php /var/www/config.php
 
 EXPOSE 8000
