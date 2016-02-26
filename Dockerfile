@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER Nicolas RAMY <nicolas.ramy@darkelda.com>
 
 RUN apk update && apk upgrade
-RUN apk add php php-soap unzip
+RUN apk add php php-soap php-json unzip
 
 ADD http://downloads.sourceforge.net/project/phpvirtualbox/phpvirtualbox-5.0-5.zip phpvirtualbox-5.0-5.zip
 RUN unzip phpvirtualbox-5.0-5.zip
