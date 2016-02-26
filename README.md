@@ -6,7 +6,7 @@ Installed and tested on Ubuntu Server 14.04 LTS
 
 ```
 apt-get update
-apt-get install virtualbox-4.3 virtualbox-dkms
+apt-get install virtualbox-5.0 virtualbox-dkms
 ```
 
 ### If you have issues
